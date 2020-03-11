@@ -73,14 +73,19 @@ Rest paths:
 create site scrrenShot
 
 POST
+
 http://localhost:8034/create-site-screenshot
+
 body:
 {
 	"siteUrlList":["http://turkishh.com","http://www.4dsight.com"]
 }
 
+
 get site screenShot
+
 GET
+
 http://localhost:8034/by/www.turkishh.com
 
 --------------------------------------------------------------------
