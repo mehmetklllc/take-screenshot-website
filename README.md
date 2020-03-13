@@ -1,4 +1,4 @@
-used technology in project
+## Used technology in project
 
 •	Springboot
 
@@ -12,15 +12,14 @@ used technology in project
 
 ------------------------------------------------------
 
-He will talk about the project briefly.
+I will talk about the project briefly.
 
 The project takes screenshots of the websites entered and saves them. When the request comes,
 
 I throw the data to rabbitmq and consume it with another class and send it to the actor.
 
 ------------------------------------------------------
-
-Things to do before the project is run:
+## Requirements
 
 •	Postgresql needs to be installed
 
@@ -33,8 +32,8 @@ rabbitmq exchange: screen topic name: screen-data defined to the project.
 
 
 
-Table  create script : 
-
+## Table  create script : 
+```bash
 CREATE TABLE public.screenshot_website (
 
 	id varchar(255) NOT NULL,
@@ -49,10 +48,10 @@ CREATE TABLE public.screenshot_website (
 	site_description varchar(255) NULL,
 	CONSTRAINT challenge_pkey PRIMARY KEY (id)
 )
-
+```
 
 --------------------------------------------------------------------------------
-Run :
+## Run :
 
 If you write down goals for eclipse it will work.
 
@@ -68,7 +67,7 @@ if you say it works
 
 -------------------------------------------------------
 
-Rest paths:
+## Rest paths:
 
 create site scrrenShot
 
@@ -82,7 +81,7 @@ body:
 }
 
 
-get site screenShot
+## get site screenShot
 
 GET
 
