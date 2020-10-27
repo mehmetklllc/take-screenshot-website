@@ -22,9 +22,9 @@ I throw the data to rabbitmq and consume it with another class and send it to th
 ------------------------------------------------------
 ## Requirements
 
-•	Postgresql needs to be installed
+•	Postgresql needs to be installed.
 
-•	Rabbitmq must be installed
+•	Rabbitmq must be installed.
 
 •	download phantomjs (download the corresponding os and put it in the directory you set: http://phantomjs.org/download.html, then set the index on the 29th line in the ScreenShoter class)
 
