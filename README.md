@@ -29,7 +29,7 @@ I throw the data to rabbitmq and consume it with another class and send it to th
 •	download phantomjs (download the corresponding os and put it in the directory you set: http://phantomjs.org/download.html, then set the index on the 29th line in the ScreenShoter class)
 
 •	Required postgresql and rabbitmq configurations must be filled in the application.properties file under the project
-rabbitmq exchange: screen topic name: screen-data defined to the project.
+rabbitmq exchange: screen topic name: screen-data defined to the project
 
 
 
